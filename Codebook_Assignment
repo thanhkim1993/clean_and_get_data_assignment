@@ -1,0 +1,46 @@
+CODEBOOK
+Data set on body acceleration
+
+# subjecID          1
+                    Subject identifiers
+                    1..30 Unique identifier for each subject
+
+# group             1
+                    Group sets
+                    1. train
+                    2. test
+            
+# activity          1
+                    Activity names
+                    1. Walking
+                    2. Walking_upstairs
+                    3. Walking_downstairs
+                    4. Sitting
+                    5. Standing
+                    6. Laying
+            
+# averageXaXisMean  5
+                    Average of different means on X axis in time domain 
+                    0.2216..0.3015
+                    
+# averageYaxisMean  5
+                    Average of different means on Y axis in time domain 
+                    -0.0405..-0.0013
+
+# averageZaxisMean  5
+                    Average of different means on Z axis in time domain 
+                    -0.1525..-0.0754
+                    
+# averageXaxisStd   5
+                    Average of different standard deviations on X axis in time domain 
+                    -0.9961..0.6269
+                    
+# averageYaxisStd   5
+                    Average of different standard deviations on Y axis in time domain 
+                    -0.9902..0.6169
+                    
+# averageZaxisStd   5
+                    Average of different standard deviations on Z axis in time domain 
+                    -0.9877..0.6090
+
+
